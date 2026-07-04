@@ -1,4 +1,4 @@
-<img width="2446" height="2726" alt="nightmode" src="https://github.com/user-attachments/assets/173430bc-6ee4-4735-83cc-b569f6280366" /># ORBIT AI — Copilote Intelligent de Maintenance Prédictive pour Moteurs Électriques Industriels
+ ORBIT AI — Copilote Intelligent de Maintenance Prédictive pour Moteurs Électriques Industriels
 
 > **Projet de Fin d'Études (PFE)**  
 > Système d'intelligence artificielle avancé pour la surveillance, le diagnostic et la prédiction de défaillances des moteurs électriques industriels.
@@ -24,6 +24,7 @@ Interface de glisser-déposer pour l'import des fichiers CSV de télémétrie mo
 - Indicateur de score qualité du dataset
 - Aperçu du nombre de lignes, colonnes et valeurs manquantes
 - Support des fichiers jusqu'à 50 Mo
+<img width="2446" height="2726" alt="modeclaire" src="https://github.com/user-attachments/assets/bd44b2be-dbf3-47f0-9a25-a4f89918cd82" />
 
 <img width="2446" height="2726" alt="nightmode" src="https://github.com/user-attachments/assets/71f73dfb-1fd6-4513-a87b-508365a04762" />
 
@@ -35,6 +36,7 @@ Analyse exploratoire automatique du dataset importé.
 - Statistiques descriptives par colonne (min, max, moyenne, écart-type, médiane)
 - Détection automatique des colonnes pertinentes (température, vibration, courant, tension, puissance)
 - Indicateurs de tendance par variable
+<img width="2446" height="3242" alt="aprecudesdonnées" src="https://github.com/user-attachments/assets/5dec972c-2396-4170-8ef4-47fc865f3c3f" />
 
 
 ---
@@ -45,6 +47,7 @@ Interface animée pendant le traitement multi-modèles.
 - Affichage des étapes : prétraitement → ML → FFT → RUL → rapport IA
 - Estimation du temps restant
 
+<img width="1915" height="867" alt="image" src="https://github.com/user-attachments/assets/beb49d4c-fe44-4731-b76d-1dd882abd7d5" />
 
 ---
 
@@ -71,6 +74,10 @@ Tableau de bord complet avec tous les indicateurs de santé moteur.
 | **XAI — Contributions** | Explication des facteurs déterminants dans le diagnostic (Explainable AI) |
 | **Profil Moteur** | Caractéristiques techniques de l'équipement analysé |
 | **Priorités de Maintenance** | Actions recommandées classées par urgence (immédiate / jours / semaines / mois) |
+<img width="2600" height="10712" alt="resultatdanalyse" src="https://github.com/user-attachments/assets/11237e27-4abd-41a1-8e47-0f07bb869411" />
+<img width="2600" height="3790" alt="analyseavecia" src="https://github.com/user-attachments/assets/5c3c7ddb-210f-4c19-a4ce-31cd1b2088c2" />
+<img width="1112" height="800" alt="resultatdanalyse3" src="https://github.com/user-attachments/assets/234cbc62-69fa-4f78-9447-8a988444c7e9" />
+<img width="2600" height="1678" alt="resultatdanalyse2" src="https://github.com/user-attachments/assets/a9a0ebe8-f072-46c8-90cd-441f890c01c2" />
 
 
 ---
@@ -80,6 +87,7 @@ Consultation de tous les rapports d'analyse précédents.
 - Liste chronologique des analyses avec score de santé et défaut détecté
 - Rechargement d'un rapport complet depuis l'historique
 - Indicateurs visuels de risque par entrée
+<img width="937" height="765" alt="image" src="https://github.com/user-attachments/assets/fb3e2660-5b03-4082-8373-2e5cfe757a14" />
 
 
 ---
@@ -92,6 +100,7 @@ Widget flottant accessible depuis toutes les interfaces.
 - Modèle LLM local **Ollama** (Qwen 2.5) — données 100% locales, aucun envoi cloud
 - Support du français et de l'anglais
 
+<img width="352" height="650" alt="chatboot" src="https://github.com/user-attachments/assets/7ef35b4c-179c-4778-bf12-082a9a55d5e8" />
 
 ---
 
