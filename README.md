@@ -1,4 +1,4 @@
-# ORBIT AI — Copilote Intelligent de Maintenance Prédictive pour Moteurs Électriques Industriels
+<img width="2446" height="2726" alt="nightmode" src="https://github.com/user-attachments/assets/173430bc-6ee4-4735-83cc-b569f6280366" /># ORBIT AI — Copilote Intelligent de Maintenance Prédictive pour Moteurs Électriques Industriels
 
 > **Projet de Fin d'Études (PFE)**  
 > Système d'intelligence artificielle avancé pour la surveillance, le diagnostic et la prédiction de défaillances des moteurs électriques industriels.
@@ -25,7 +25,7 @@ Interface de glisser-déposer pour l'import des fichiers CSV de télémétrie mo
 - Aperçu du nombre de lignes, colonnes et valeurs manquantes
 - Support des fichiers jusqu'à 50 Mo
 
-**Capture d'écran :** *(à ajouter)*
+<img width="2446" height="2726" alt="nightmode" src="https://github.com/user-attachments/assets/71f73dfb-1fd6-4513-a87b-508365a04762" />
 
 ---
 
@@ -36,7 +36,6 @@ Analyse exploratoire automatique du dataset importé.
 - Détection automatique des colonnes pertinentes (température, vibration, courant, tension, puissance)
 - Indicateurs de tendance par variable
 
-**Capture d'écran :** *(à ajouter)*
 
 ---
 
@@ -46,7 +45,6 @@ Interface animée pendant le traitement multi-modèles.
 - Affichage des étapes : prétraitement → ML → FFT → RUL → rapport IA
 - Estimation du temps restant
 
-**Capture d'écran :** *(à ajouter)*
 
 ---
 
@@ -74,7 +72,6 @@ Tableau de bord complet avec tous les indicateurs de santé moteur.
 | **Profil Moteur** | Caractéristiques techniques de l'équipement analysé |
 | **Priorités de Maintenance** | Actions recommandées classées par urgence (immédiate / jours / semaines / mois) |
 
-**Captures d'écran :** *(à ajouter)*
 
 ---
 
@@ -84,7 +81,6 @@ Consultation de tous les rapports d'analyse précédents.
 - Rechargement d'un rapport complet depuis l'historique
 - Indicateurs visuels de risque par entrée
 
-**Capture d'écran :** *(à ajouter)*
 
 ---
 
@@ -96,7 +92,6 @@ Widget flottant accessible depuis toutes les interfaces.
 - Modèle LLM local **Ollama** (Qwen 2.5) — données 100% locales, aucun envoi cloud
 - Support du français et de l'anglais
 
-**Capture d'écran :** *(à ajouter)*
 
 ---
 
