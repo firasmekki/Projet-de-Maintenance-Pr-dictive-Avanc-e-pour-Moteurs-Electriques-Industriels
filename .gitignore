@@ -1,0 +1,97 @@
+# ──────────────────────────────────────────────
+#  ORBIT AI — .gitignore
+# ──────────────────────────────────────────────
+
+# ── Secrets & environment ─────────────────────
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.local
+*.pem
+*.key
+*.cert
+secrets/
+
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.log
+
+# ── ML / Data ─────────────────────────────────
+ml/models/*.pkl
+ml/models/*.joblib
+ml/models/*.h5
+ml/models/*.keras
+ml/models/*.pt
+ml/models/*.pth
+ml/models/checkpoints/
+data/
+*.csv
+*.parquet
+*.xlsx
+!tests/fixtures/*.csv
+
+# ── Database ──────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+chromadb_data/
+pgdata/
+
+# ── Node / Frontend ───────────────────────────
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.npm
+*.tsbuildinfo
+.eslintcache
+
+# ── Docker volumes ────────────────────────────
+postgres_data/
+redis_data/
+ollama_data/
+uploads/
+
+# ── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── IDEs ──────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Alembic ───────────────────────────────────
+alembic/versions/__pycache__/
+
+# ── Reports / Output ──────────────────────────
+reports/
+*.pdf
+exports/

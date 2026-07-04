@@ -1,0 +1,22 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+SQLAlchemy==2.0.36
+psycopg[binary]==3.2.3
+alembic==1.14.0
+# Module 5 — Machine Learning Engine
+scikit-learn>=1.5.0
+numpy>=1.26.0
+joblib>=1.4.0
+# Module 7 — XGBoost fault classifier
+xgboost>=2.0.0
+# Module 6 — Dataset Upload & Analysis
+pandas>=2.2.0
+openpyxl>=3.1.0
+python-multipart>=0.0.12
+reportlab>=4.2.0
+pytest==8.3.4
+httpx==0.28.1
+ruff==0.8.6

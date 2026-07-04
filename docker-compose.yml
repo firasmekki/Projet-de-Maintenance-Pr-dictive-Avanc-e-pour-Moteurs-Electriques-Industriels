@@ -1,0 +1,63 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: orbit-ai-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-orbit}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-orbit}
+      POSTGRES_DB: ${POSTGRES_DB:-orbit_ai}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-orbit} -d ${POSTGRES_DB:-orbit_ai}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - orbit-ai
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: orbit-ai-backend
+    restart: unless-stopped
+    environment:
+      APP_NAME: ORBIT AI Industrial Copilot API
+      APP_VERSION: 0.1.0
+      ENVIRONMENT: development
+      DEBUG: "true"
+      API_V1_PREFIX: /api/v1
+      BACKEND_CORS_ORIGINS: '["http://localhost:5173"]'
+      LOG_LEVEL: INFO
+      LOG_JSON: "true"
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: ${POSTGRES_USER:-orbit}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-orbit}
+      POSTGRES_DB: ${POSTGRES_DB:-orbit_ai}
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-orbit}:${POSTGRES_PASSWORD:-orbit}@postgres:5432/${POSTGRES_DB:-orbit_ai}
+      DB_POOL_SIZE: 10
+      DB_MAX_OVERFLOW: 20
+      DB_POOL_TIMEOUT: 30
+      DB_POOL_RECYCLE: 1800
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: >
+      sh -c "alembic upgrade head &&
+      uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    networks:
+      - orbit-ai
+
+volumes:
+  postgres_data:
+
+networks:
+  orbit-ai:
+    driver: bridge
