@@ -24,9 +24,8 @@ Interface de glisser-déposer pour l'import des fichiers CSV de télémétrie mo
 - Indicateur de score qualité du dataset
 - Aperçu du nombre de lignes, colonnes et valeurs manquantes
 - Support des fichiers jusqu'à 50 Mo
-<img width="2446" height="2726" alt="modeclaire" src="https://github.com/user-attachments/assets/bd44b2be-dbf3-47f0-9a25-a4f89918cd82" />
+<img width="2880" height="3146" alt="localhost_5173_ (2)" src="https://github.com/user-attachments/assets/6278b428-f227-4a3c-a5ea-639b6feda26d" />
 
-<img width="2446" height="2726" alt="nightmode" src="https://github.com/user-attachments/assets/71f73dfb-1fd6-4513-a87b-508365a04762" />
 
 ---
 
@@ -36,7 +35,8 @@ Analyse exploratoire automatique du dataset importé.
 - Statistiques descriptives par colonne (min, max, moyenne, écart-type, médiane)
 - Détection automatique des colonnes pertinentes (température, vibration, courant, tension, puissance)
 - Indicateurs de tendance par variable
-<img width="2446" height="3242" alt="aprecudesdonnées" src="https://github.com/user-attachments/assets/5dec972c-2396-4170-8ef4-47fc865f3c3f" />
+<img width="2880" height="3242" alt="localhost_5173_ (3)" src="https://github.com/user-attachments/assets/49874d27-2b27-4d38-b632-dd83758be657" />
+
 
 
 ---
@@ -46,8 +46,8 @@ Interface animée pendant le traitement multi-modèles.
 - Progression en temps réel du pipeline d'analyse
 - Affichage des étapes : prétraitement → ML → FFT → RUL → rapport IA
 - Estimation du temps restant
+<img width="2880" height="3242" alt="localhost_5173_ (4)" src="https://github.com/user-attachments/assets/63f92fc9-92db-4ed9-b212-fe38c2da0233" />
 
-<img width="1915" height="867" alt="image" src="https://github.com/user-attachments/assets/beb49d4c-fe44-4731-b76d-1dd882abd7d5" />
 
 ---
 
@@ -74,11 +74,9 @@ Tableau de bord complet avec tous les indicateurs de santé moteur.
 | **XAI — Contributions** | Explication des facteurs déterminants dans le diagnostic (Explainable AI) |
 | **Profil Moteur** | Caractéristiques techniques de l'équipement analysé |
 | **Priorités de Maintenance** | Actions recommandées classées par urgence (immédiate / jours / semaines / mois) |
-<img width="2600" height="10712" alt="resultatdanalyse" src="https://github.com/user-attachments/assets/11237e27-4abd-41a1-8e47-0f07bb869411" />
-<img width="2600" height="3790" alt="analyseavecia" src="https://github.com/user-attachments/assets/5c3c7ddb-210f-4c19-a4ce-31cd1b2088c2" />
-<img width="1112" height="800" alt="resultatdanalyse3" src="https://github.com/user-attachments/assets/234cbc62-69fa-4f78-9447-8a988444c7e9" />
-<img width="2600" height="1678" alt="resultatdanalyse2" src="https://github.com/user-attachments/assets/a9a0ebe8-f072-46c8-90cd-441f890c01c2" />
 
+
+<img width="2880" height="11870" alt="localhost_5173_ (6)" src="https://github.com/user-attachments/assets/48bc0ebf-602d-4123-b485-1059d0408a7a" />
 
 ---
 
@@ -87,7 +85,7 @@ Consultation de tous les rapports d'analyse précédents.
 - Liste chronologique des analyses avec score de santé et défaut détecté
 - Rechargement d'un rapport complet depuis l'historique
 - Indicateurs visuels de risque par entrée
-<img width="937" height="765" alt="image" src="https://github.com/user-attachments/assets/fb3e2660-5b03-4082-8373-2e5cfe757a14" />
+<img width="2880" height="1830" alt="localhost_5173_ (2)" src="https://github.com/user-attachments/assets/1b06f9a6-5db1-4c04-9044-36109bbdfa5c" />
 
 
 ---
@@ -99,8 +97,8 @@ Widget flottant accessible depuis toutes les interfaces.
 - Base de connaissances en maintenance industrielle intégrée
 - Modèle LLM local **Ollama** (Qwen 2.5) — données 100% locales, aucun envoi cloud
 - Support du français et de l'anglais
+<img width="1917" height="866" alt="Capture d’écran 2026-07-04 211516" src="https://github.com/user-attachments/assets/c2a6db34-6b44-4125-934c-0632f673734a" />
 
-<img width="352" height="650" alt="chatboot" src="https://github.com/user-attachments/assets/7ef35b4c-179c-4778-bf12-082a9a55d5e8" />
 
 ---
 
