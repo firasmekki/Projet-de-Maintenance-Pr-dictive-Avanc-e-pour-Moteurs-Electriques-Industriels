@@ -232,17 +232,3 @@ Copiez `backend/.env.example` vers `backend/.env` et renseignez :
 | `OLLAMA_BASE_URL` | URL d'Ollama | `http://localhost:11434` |
 | `BACKEND_CORS_ORIGINS` | Origines CORS autorisées | `["http://localhost:5173"]` |
 
----
-
-## Auteur
-
-**Firas Mekki**  
-Étudiant ingénieur — Projet de Fin d'Études  
-Spécialité : Intelligence Artificielle & Systèmes Industriels
-
----
-
-## Licence
-
-Ce projet est développé dans le cadre d'un PFE académique.  
-Tous droits réservés — © 2024 Firas Mekki
