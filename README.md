@@ -1,6 +1,5 @@
  ORBIT AI — Copilote Intelligent de Maintenance Prédictive pour Moteurs Électriques Industriels
 
-> **Projet de Fin d'Études (PFE)**  
 > Système d'intelligence artificielle avancé pour la surveillance, le diagnostic et la prédiction de défaillances des moteurs électriques industriels.
 
 ---
